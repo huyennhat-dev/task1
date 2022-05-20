@@ -193,39 +193,42 @@
                                     Team của bạn có bao nhiêu thành viên?
                                 </div>
                                 <div class="input-price l-8">
-                                    <input type="number" id="team-number" onkeyup="onChange()" onchange="onChange()">
+                                    <input type="number" id="team-number" min="1" onkeyup="onChange()" onchange="onChange()">
                                     <span class="add-on">Thành viên</span>
                                 </div>
                             </div>
                             <div class="member" id="member">
-                                <div class="each-member">
-                                    <div class="member-title">
-                                        Thành viên 1
-                                    </div>
-                                    <div class="member-form">
-                                        <div class="form-group">
-                                            <label class="" for="">Họ và tên </label>
-                                            <input type="text" name="fullName_1" class="" value="" id="" required placeholder="Nguyễn Văn A">
+                                <div id="member-list_1">
+                                    <div class="each-member">
+                                        <div class="member-title">
+                                            Thành viên 1
                                         </div>
-                                        <div class="form-group">
-                                            <label class="" for="">Email </label>
-                                            <input type="email" name="email_1" class="" value="" id="" required placeholder="example@gmail.com">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="" for="">Số điện thoại </label>
-                                            <input type="number" name="phoneNumber_1" class="" value="" id="" required placeholder="09xxxxxxxx">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="" for="">Kĩ năng </label>
-                                            <input type="text" name="skill_1" class="" value="" id="" required placeholder="Laravel, NodeJs,...">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="" for="">Số tài khoản </label>
-                                            <input type="number" name="bankNumber" class="" value="" id="" placeholder="Không bắt buộc">
+                                        <div class="member-form">
+                                            <div class="form-group">
+                                                <label class="" for="">Họ và tên </label>
+                                                <input type="text" name="fullName_1" class="" value="" id="" required placeholder="Nguyễn Văn A">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="" for="">Email </label>
+                                                <input type="email" name="email_1" class="" value="" id="" required placeholder="example@gmail.com">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="" for="">Số điện thoại </label>
+                                                <input type="number" name="phoneNumber_1" class="" value="" id="" required placeholder="09xxxxxxxx">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="" for="">Kĩ năng </label>
+                                                <input type="text" name="skill_1" class="" value="" id="" required placeholder="Laravel, NodeJs,...">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="" for="">Số tài khoản </label>
+                                                <input type="number" name="bankNumber" class="" value="" id="" placeholder="Không bắt buộc">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div id="member-list"></div>
+
+                                <div id="member-list_2"></div>
                             </div>
                         </div>
                         <div class="submit-button w-100">
