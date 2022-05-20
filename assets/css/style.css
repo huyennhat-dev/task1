@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px -2px 7px rgb(0 0 0 / 59%);
+}
+
+.header p,
+.footer p {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.main {
+    padding-top: 10px;
+}
+
+.main div {
+    justify-content: space-between
+}
+
+.job-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+.job-service {
+    margin-bottom: 20px;
+    padding: 10px 15px 7px;
+    background: #f5f5f5;
+}
+
+.service-title a,
+.service-suggest a {
+    margin-left: 5px;
+    color: #08c;
+    text-decoration: none;
+}
+
+.service-suggest {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.service-suggest a {
+    font-size: 14px;
+}
+
+.job-content {
+    padding: 0 30px;
+}
+
+.job-skill a {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 0 4px;
+    background: #f7f7f7;
+    color: #adadad;
+    border-radius: 2px;
+    margin-right: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.report {
+    margin: 20px 0;
+}
+
+.report i {
+    color: red;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.report a {
+    text-decoration: none;
+    color: black;
+}
+
+.job-information .job-information-inner {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);
+    padding: 10px 0;
+}
+
+.job-information h2 {
+    height: 30px;
+    font-size: 17px;
+    font-family: open sans, sans-serif;
+    padding: 0 20px;
+    letter-spacing: -.03em;
+    font-weight: 600;
+}
+
+.description-job,
+.info-employment {
+    padding: 0 20px;
+}
+
+.description-job .dl-horizontal dt {
+    width: 140px;
+    color: #aaa;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.description-job .dl-horizontal dd {
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+
+.info-employment-top {
+    margin-top: 14px;
+}
+
+.row-fluid {
+    width: 100%;
+    *zoom: 1;
+    display: flex;
+}
+
+.info-employment-top .title {
+    font-size: 16px;
+    margin: 0 0 5px 20px;
+}
+
+.info-employment-top .title a {
+    color: #08c;
+    font-weight: normal;
+    font-size: 20px
+}
+
+.container h1,
+.container h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-employment-bottom {
+    margin-top: 10px;
+}
+
+.info-employment .dl-horizontal dt {
+    width: 75px;
+    color: #bbb;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.info-employment .dl-horizontal dd {
+    margin-left: 17px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.offer-information {
+    clear: both;
+    margin: 20px 0;
+    background: #f7f7f7;
+    padding: 10px 35px 30px 35px;
+}
+
+.offer-header {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.offer-header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: open sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -.03em;
+}
+
+.offer-form div:nth-child(1) {
+    justify-content: space-around;
+}
+
+.offer-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.propose-body {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #f2f2f2;
+    border-radius: 4px;
+}
+
+.propose-body .input-price {
+    width: 100%;
+    padding-left: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.input-price input {
+    height: 40px;
+    padding: 0;
+    color: #535050;
+    font-size: 20;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 5px;
+    border-left: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.input-price input:focus {
+    outline: none;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+
+.input-price input:focus~.add-on {
+    outline: none;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+
+.input-price .add-on {
+    font-size: 14px;
+    background-color: #fff;
+    border-right: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+    padding: 9.5px 10px 11.5px 5px;
+}
+
+select,
+textarea {
+    width: 100%;
+    height: 40px;
+    color: #535050;
+    border-radius: 3px;
+    border: 1px solid #d4d4d4;
+    padding: 0 10px;
+}
+
+select:focus,
+textarea:focus,
+input:focus {
+    outline: none;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+
+.member {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.each-member {
+    margin-left: 30px;
+}
+
+.member-title {
+    color: #000;
+    font-weight: 500;
+}
+
+.member-form {
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.member-form .form-group label {
+    font-weight: 400;
+}
+
+.member-form .form-group input {
+    width: 100%;
+    height: 30px;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.submit-button {
+    text-align: center;
+    padding: 15px;
+}
+
+.submit-button button {
+    color: #fff;
+    font-size: 18px;
+    background-color: #007bff;
+    outline: none;
+    border: 1px solid #007bff;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.m-none {
+    margin: 0;
+}
+
+.text-red {
+    color: red
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
